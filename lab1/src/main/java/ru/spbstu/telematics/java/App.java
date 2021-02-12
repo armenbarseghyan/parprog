@@ -12,7 +12,7 @@ public final class App {
     private App() {
     }
 
-    private static int[][] fromArrayToMatrix(int[] array) {
+    public static int[][] fromArrayToMatrix(int[] array) {
         int n = (int) Math.ceil(Math.sqrt(array.length));
         int[][] matrix = new int[n][n];
         int counter = 0;
